@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 60% ;
+    margin: 20px auto;
+}
+.table{
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.table caption{
+    font-size: 34px;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+}

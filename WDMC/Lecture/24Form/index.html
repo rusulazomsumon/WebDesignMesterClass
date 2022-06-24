@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HTML CSS Complex Form</title>
+</head>
+<body>
+    <div class="container">
+        <header class="heading">
+            <h1>Complex Form With HTML & CSS</h1>
+        </header>
+        <section class="form-section">
+            <!-- form start here  -->
+            <form > 
+                <div class="inline-form">
+                    <div class="form-group">
+                        <label for="fName">First Name</label>
+                        <input type="text" id="fName" placeholder="Your first name here">
+                    </div>
+                    <div class="form-group">
+                        <label for="lName">Last Name</label>
+                        <input type="text" id="lName" placeholder="Your last name here">
+                    </div>
+                </div>
+                <div class="inline-form">
+                    <div class="form-group">
+                        <label for="email">eMail</label>
+                        <input type="email" id="email" placeholder="demo@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone No</label>
+                        <input type="tel" id="phone" placeholder="Your number here">
+                    </div>
+                </div>
+                <div class="inline-form">
+                    <div class="form-group">
+                        <label for="country">Country</label>
+                        <select id="country">
+                            <option value="Bangladesh" selected>Bangladesh</option>
+                            <option value="India">India</option>
+                            <option value="Pakisthan">Pakisthan</option>
+                            <option value="Maldivs">Maldivs</option>
+                            <option value="Nepal">Nepal</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="city">City</label>
+                        <select id="city">
+                            <option value="Dhaka" selected>Dhaka</option>
+                            <option value="Dilli">Dilli</option>
+                            <option value="Islamabad">Islamabad</option>
+                            <option value="Male">Male</option>
+                            <option value="Kathmundu">Kathmundu</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Gender</label>
+                    <div class="radio-inline-group">
+                        <div class="radio-inline">  
+                            <input type="radio" value="Male" id="male" name="gender">
+                            <label for="male">Male</label>
+                        </div>
+                        <div class="radio-inline">  
+                            <input type="radio" value="Female" id="female" name="gender">
+                            <label for="female">Female</label>
+                        </div>
+                        <div class="radio-inline">  
+                            <input type="radio" value="Other" id="other" name="gender">
+                            <label for="other">Other</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group bio">
+                    <label for="bio">Short Biodata</label>
+                    <textarea name="" id="bio"></textarea>
+                </div>
+                <div class="inline-form">
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password">
+                    </div>
+                    <div class="form-group">
+                        <label for="C_password">Conform Password</label>
+                        <input type="password" id="C_password">
+                    </div>
+                    
+                </div>
+                <div class="form-group">
+                    <div class="radio-inline">
+                        <input type="checkbox" id="agrement">
+                        <label for="agrement">Accept Terms And Conditions</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-reset" type="reset">
+                        Reset
+                    </button>
+                    <button class="btn btn-submit" type="submit">
+                        Submit
+                    </button>
+                </div>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
